@@ -1,0 +1,5 @@
+{
+    "project_id": "vpn-us-275509",
+    "source_image_family": "reddit-base",
+    "machine_type": "f1-micro"     
+}

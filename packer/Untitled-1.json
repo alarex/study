@@ -1,0 +1,20 @@
+{
+    "builders": [
+      {
+      # что будет создавать виртуальную машину для билда образа
+      "type": "googlecompute",
+      # id проекта
+      "project_id": "vpn-us-275509",
+      "image_name": "reddit-base-{{timestamp}}",
+      #семейство образов к которому
+      будет принадлежать новый образ
+      "image_family": "reddit-base",
+      
+      "source_image_family": "ubuntu-1804-lts",
+      "zone": "europe-west1-b",
+      "ssh_username": "appuser",
+      "machine_type": "f1-micro"
+      }
+    ]
+  }
+  
